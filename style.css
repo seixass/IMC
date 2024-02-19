@@ -6,7 +6,7 @@
     width: 100%;
 }
 #container{
-    background-color: rgb(177, 53, 207);
+    background-color: burlywood;
     height: 500px;
     width: 400px;
     border-radius: 30px;
@@ -21,11 +21,8 @@
   }
 
 #formulario{
- display: flex;
- flex-direction: column;
- justify-items: center;
- margin: 30px;
- 
+    width: 300px;
+    justify-content: center;
 }
 body{
     padding: 0;
@@ -35,28 +32,4 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-#peso{
-  border-radius: 30px;
-}
   
-#altura{
-  border-radius: 30px;
-}
-
-#cliqueAquiBtn{
-  margin: 30px;
-  border-radius: 30px;
-}
-#pesotxt{
-  font-size: 30px;
-}
-#alturatxt{
-  font-size: 30px;
-}
-#h1{
-  display: flex;
-  justify-items: center;
-  align-items: center ;
-  margin: 30px;
-}
